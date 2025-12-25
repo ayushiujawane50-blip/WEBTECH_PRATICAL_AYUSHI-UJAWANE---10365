@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple JS Demo</title>
+</head>
+<body>
+
+<h1>JavaScript Conditional & Looping</h1>
+
+<script>
+var a = 10;
+
+if (a > 5) {
+    document.write("a is greater than 5<br>");
+} else {
+    document.write("a is not greater than 5<br>");
+}
+
+var color = "red";
+
+switch(color){
+    case "red":
+        document.write("Color is red<br>");
+        break;
+    case "blue":
+        document.write("Color is blue<br>");
+        break;
+    default:
+        document.write("Color not matched<br>");
+}
+
+
+
+document.write("For Loop: ");
+for (var i = 1; i <= 5; i++) {
+    document.write(i + " ");
+}
+  document.write("<br>");
+
+ document.write("While Loop: ");
+var j = 1;
+while (j <= 5) {
+    document.write(j + " ");
+    j++;
+}
+document.write("<br>");
+
+
+document.write("Do-While Loop: ");
+var k = 1;
+do {
+    document.write(k + " ");
+    k++;
+} while (k <= 5);
+</script>
+
+</body>
+</html>
