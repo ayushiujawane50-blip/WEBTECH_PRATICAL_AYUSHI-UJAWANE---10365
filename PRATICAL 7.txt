@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Example</title>
+
+        <style>
+        p {
+            color: blue;
+            font-size: 16px;
+        }
+    </style>
+
+       <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+       <h1 style="color: red;">Welcome to CSS Example</h1>
+
+    <h2>Internal CSS Example</h2>
+    <p>This paragraph is styled using internal CSS.</p>
+
+    <h2>External CSS Example</h2>
+    <p>This paragraph is styled using external CSS.</p>
+
+</body>
+</html>
