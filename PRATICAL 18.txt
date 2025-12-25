@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="box">Hello</div>
+
+<button id="add">Add</button>
+<button id="remove">Remove</button>
+<button id="change">Change</button>
+
+<script>
+
+document.getElementById("add").addEventListener("click", function () {
+    let p = document.createElement("p");
+    p.innerHTML = "New item added";
+    document.getElementById("box").appendChild(p);
+});
+
+document.getElementById("remove").addEventListener("click", function () {
+    let box = document.getElementById("box");
+    if (box.children.length > 0) {
+        box.removeChild(box.lastChild); 
+    }
+});
+
+document.getElementById("change").addEventListener("click", function () {
+    document.getElementById("box").innerHTML = "Content changed!";
+});
+</script>
+
+</body>
+</html>
