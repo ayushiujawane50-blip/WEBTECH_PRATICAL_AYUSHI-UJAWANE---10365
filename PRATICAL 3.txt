@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Layout Example</title>
+</head>
+<body>
+
+    <h1>Table Layout with Merged Cells</h1>
+
+    <table border="1" width="80%" cellspacing="0" cellpadding="10" align="center">
+        <caption><b>Student Information</b></caption>
+        
+        <!-- Header Row -->
+        <tr align="center" bgcolor="#f2f2f2">
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Subjects</th>
+        </tr>
+
+        <!-- Row with merged cell (colspan) -->
+        <tr>
+            <td rowspan="2" align="center" valign="middle">Ayushi</td>
+            <td align="center">18</td>
+            <td align="center">1st Year</td>
+            <td>C, WEB TECH,MATHEMATICS</td>
+        </tr>
+
+        <tr>
+            <td align="center">19</td>
+            <td align="center">2nd Year</td>
+            <td>DL,NALS,CP</td>
+        </tr>
+
+           </table>
+
+</body>
+</html>
