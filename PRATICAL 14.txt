@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Function & Scope</title>
+</head>
+<body>
+
+<h1>JavaScript Function and Scope Demo</h1>
+
+<script>
+
+function showMessage() {
+    var a = 10;
+    let b = 20;      
+    const c = 30;   
+
+    document.write("Inside function:<br>");
+    document.write("var a = " + a + "<br>");
+    document.write("let b = " + b + "<br>");
+    document.write("const c = " + c + "<br>");
+}
+
+showMessage();
+
+
+if (true) {
+    var x = 100;   
+    let y = 200;   
+    const z = 300; 
+}
+
+document.write("var x = " + x + "<br>");  
+
+document.write("let y and const z cannot be used outside the block.");
+</script>
+
+</body>
+</html>
