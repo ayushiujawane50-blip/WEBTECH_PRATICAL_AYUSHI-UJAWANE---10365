@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors Example</title>
+
+    <style>
+         h1 {
+            color: darkblue;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+
+        
+        #unique {
+            color: red;
+            font-weight: bold;
+        }
+
+       
+        p, li {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        
+        div p {
+            color: green;
+        }
+
+        
+        a[target="_blank"] {
+            color: orange;
+        }
+
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Selector Examples</h1>
+
+    <p class="highlight">This paragraph uses a <b>class selector</b> with yellow background.</p>
+
+    <p id="unique">This paragraph uses an <b>ID selector</b> to style text red and bold.</p>
+
+    <div>
+        <p>This paragraph is inside a div and uses a <b>descendant selector</b> to turn green.</p>
+    </div>
+
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+    </ul>
+
+    <p>
+        Visit <a href="https://www.google.com" target="_blank">Google</a> - this uses an <b>attribute selector</b>.
+    </p>
+
+</body>
+</html>
