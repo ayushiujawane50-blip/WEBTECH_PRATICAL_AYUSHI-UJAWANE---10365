@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="title">Original Heading</h2>
+
+<p id="para">This is original text.</p>
+
+<button id="btn">Change Text</button>
+
+<script>
+
+document.getElementById("title").innerHTML = "Heading Changed using getElementById()";
+
+
+document.querySelector("#para").innerHTML = "Paragraph changed using querySelector()";
+
+
+document.getElementById("btn").onclick = function() {
+    document.getElementById("btn").innerHTML = "Button Clicked!";
+};
+</script>
+
+</body>
+</html>
