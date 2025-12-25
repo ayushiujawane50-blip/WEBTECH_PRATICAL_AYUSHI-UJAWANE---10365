@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="text">Click the button or press any key</h2>
+
+<button id="btn">Click Me</button>
+
+<script>
+
+function changeText() {
+    document.getElementById("text").innerHTML = "Button Clicked!";
+}
+
+document.getElementById("btn").addEventListener("click", changeText);
+
+
+document.addEventListener("keydown", function() {
+    document.getElementById("text").innerHTML = "You pressed a key!";
+});
+
+
+setTimeout(function() {
+    document.getElementById("btn").removeEventListener("click", changeText);
+    document.getElementById("text").innerHTML += "<br>Click event removed!";
+}, 5000);  // removes click after 5 seconds
+</script>
+
+</body>
+</html>
