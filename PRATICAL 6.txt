@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semantic Webpage Example</title>
+</head>
+<body>
+
+        <header>
+        <h1>My Website</h1>
+        <p>Welcome to my semantic HTML webpage!</p>
+    </header>
+
+        <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+        <main>
+
+               <section id="articles">
+            <h2>Latest Articles</h2>
+
+            <article>
+                <h3>Article 1: HTML Basics</h3>
+                <p>This article explains the basics of HTML including tags, elements, and structure.</p>
+            </article>
+
+            <article>
+                <h3>Article 2: CSS Introduction</h3>
+                <p>This article introduces CSS and how it is used to style HTML pages.</p>
+            </article>
+        </section>
+
+                <aside>
+            <h2>About Me</h2>
+            <p>I am a web development enthusiast learning HTML, CSS, and JavaScript.</p>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">My Portfolio</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+       <footer>
+        <p>&copy; 2025 My Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
