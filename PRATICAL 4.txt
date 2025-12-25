@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marksheet</title>
+</head>
+<body>
+
+    
+        <caption><b>Student Marksheet</b></caption>
+        
+        
+        <thead>
+            <tr>
+            <th>ERP</th>
+            <th>Name</th>
+            <th>Marks Obtained</th>
+            <th>Total Marks</th>
+            <th>Grade</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <td>1001</td>
+            <td>Ayushi Ujawane</td>
+            <td>85</td>
+            <td>100</td>
+            <td>A</td>
+        </tr>
+
+        
+            <td>1002</td>
+            <td>Rahul Sharma</td>
+            <td>78</td>
+            <td>100</td>
+            <td>B+</td>
+        </tr>
+
+        
+            <td>1003</td>
+            <td>Neha Patil</td>
+            <td>92</td>
+            <td>100</td>
+            <td>A+</td>
+        </tr>
+
+        
+            <td>1004</td>
+            <td>Vikas Singh</td>
+            <td>67</td>
+            <td>100</td>
+            <td>B</td>
+        </tr>
+         </tbody>
+         </table>
+
+</body>
+</html>
+        
+           
