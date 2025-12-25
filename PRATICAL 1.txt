@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML Page</title>
+</head>
+<body>
+
+    <h1>Welcome to My Website</h1>
+
+    <h2>About Me</h2>
+    <p>
+        My name is <b>Ayushi</b>. I am a first-year student learning 
+        <i>HTML</i> and <u>web development</u>.
+    </p>
+
+    <h2>My Interests</h2>
+    <p>
+        I enjoy learning new things and improving my coding skills.
+        HTML is fun because it helps me create <b>simple</b> and <i>beautiful</i> web pages.
+    </p>
+
+    <h3>Conclusion</h3>
+    <p>
+        This page uses <b>Headings</b>, <i>Paragraphs</i>, and 
+        <u>Text Formatting</u> tags in a simple and clean way.
+    </p>
+
+</body>
+</html>
